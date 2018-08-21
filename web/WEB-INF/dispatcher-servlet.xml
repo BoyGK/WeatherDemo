@@ -30,7 +30,7 @@
         <!-- 路径前缀 -->
         <property name="prefix" value="/"/>
         <!-- 路径后缀 -->
-        <property name="suffix" value=".jsp"/>
+        <property name="suffix" value=".html"/>
         <!-- 前缀+视图逻辑名+后缀=真实路径 -->
     </bean>
 

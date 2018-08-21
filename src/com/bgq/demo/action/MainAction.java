@@ -25,6 +25,7 @@ public class MainAction {
         URLParams params = new URLParams(strs[0]);
 //        System.out.println("3" + params.build());
         String url = params.build() + strs[1];
+        if (url.contains("/sun.json")) url = url.replace("weather", "geo");
 //        System.out.println("4" + url);
         resp.setCharacterEncoding("utf-8");
         resp.setContentType("text/html;charset=utf-8");
